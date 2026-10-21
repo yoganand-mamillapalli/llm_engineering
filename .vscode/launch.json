@@ -1,0 +1,115 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "LLM: LangChain demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.langchain_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Tool demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.tools.tool_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Logging hooks",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.hooks.logging_hook_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Skill demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.skills.skill_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Weather and timezone skill",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.skills.weather_timezone_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Problem solver",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.skills.problem_solver_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Multi-agent context demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.agents.multi_agent_context_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Team agents demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.agents.team_agents_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Subagent demo",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.agents.subagent_demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Structured outputs",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.structured_outputs.demo",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: MCP notes client",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.mcp.client",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Context7 MCP client",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "llm_engineering.mcp.context7_client",
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "LLM: Structured output tests",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "unittest",
+      "args": [
+        "discover",
+        "-s",
+        "llm_engineering/structured_outputs/tests",
+        "-v"
+      ],
+      "cwd": "${workspaceFolder}/..",
+      "console": "integratedTerminal"
+    }
+  ]
+}
